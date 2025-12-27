@@ -1,0 +1,8 @@
+{
+  "name": "BUMER - Conexões Aerodinâmicas",
+  "description": "App de conexões com sistema exclusivo de Baú e bumerangue, permitindo resgatar conexões em até 5 dias ou perdê-las para sempre.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
