@@ -30,15 +30,15 @@ const RadarView: React.FC = () => {
             </div>
             <div className="p-3 flex flex-col items-center bg-white">
               <div className="flex gap-1 mb-2">
-                <div className="w-2.5 h-2.5 rounded-full bg-green-400" />
-                <div className="w-2.5 h-2.5 rounded-full bg-yellow-400" />
-                <div className="w-2.5 h-2.5 rounded-full bg-blue-400" />
-                <div className="w-2.5 h-2.5 rounded-full bg-pink-400" />
+                <div className="w-2.5 h-2.5 rounded-full bg-[#39FF14] shadow-[0_0_5px_#39FF14]" />
+                <div className="w-2.5 h-2.5 rounded-full bg-[#FFF01F] shadow-[0_0_5px_#FFF01F]" />
+                <div className="w-2.5 h-2.5 rounded-full bg-[#00FBFF] shadow-[0_0_5px_#00FBFF]" />
+                <div className="w-2.5 h-2.5 rounded-full bg-[#FF00E5] shadow-[0_0_5px_#FF00E5]" />
               </div>
               <span className="font-bold text-gray-800 text-base">{u.name}</span>
               <button
                 onClick={() => handleConnect(u)}
-                className="mt-3 w-full py-2.5 bg-[#FDF2FF] text-[#A020F0] font-bold text-xs rounded-2xl hover:bg-purple-100 transition shadow-sm"
+                className="mt-3 w-full py-2.5 bg-black text-[#00FBFF] font-black text-xs rounded-2xl hover:text-white hover:bg-black transition shadow-sm border-2 border-[#00FBFF] uppercase tracking-tighter"
               >
                 Puxar o Bumer
               </button>
